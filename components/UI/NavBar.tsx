@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import Brand from "../../home/Brand";
+import Brand from "../home/Brand";
 
 type NavBarProps = {
   cartCount: number;
@@ -31,7 +31,7 @@ export default function NavBar({
     },
     {
       label: "ABOUT",
-      href: "/#about",
+      href: "/about",
       isActive: false,
     },
   ];

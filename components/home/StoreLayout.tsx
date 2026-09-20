@@ -11,7 +11,7 @@ import {
 
 import type { CartItem, Product } from "./types";
 
-import NavBar from "../UI/tileTransition/NavBar";
+import NavBar from "../UI/NavBar";
 import Footer from "./Footer";
 import CartDrawer from "./CartDrawer";
 
